@@ -11,7 +11,7 @@ fetch('https://mstree.de/api/get.php?api=token')
                 activity : {
                     details : output["hashtag"],
                     assets : {
-                        large_image : "picture",  // Picture need to be in Rich Presence -> Art Assets -> Rich Presence Assets
+                        large_image : "picture",  // Picture need to be at the discord dev portal in Rich Presence -> Art Assets -> Rich Presence Assets
                         large_text : output["sentence"]
                     },
                     buttons : [{label : "Personal Mstree" , url : "https://mstree.de/"+output["name"]},{label : "Mstree Home" , url : "https://mstree.de/"}]
