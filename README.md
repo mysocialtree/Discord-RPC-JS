@@ -3,7 +3,7 @@ Discord RPC in JS that get data from your mstree account and shows that to disco
 
 Install
 
-  1. Downloat the reposetory form github
+  1. Downloat the repository from github
   2. Go to https://nodejs.org/en/ and download the latest version 
   3. unpack the ZIP to your Desktop
   4. Go to https://discord.com/developers/ , create a new Application and copy the APPLICATION ID
